@@ -1,0 +1,15 @@
+CS problem:
+
+A barber goes to work in a barbershop with a waiting room with a fixed number of seats.
+
+If no one is  in the waiting room, the barber goes to sleep.
+
+when a client shows up, if there are no seats available, he or she leaves
+
+if there is a seat available, and the barber is sleeping, the client wakes the barber up and gets a hair cut
+
+if the barber is busy the client takes a seat and waits his or her turn
+
+once the shop closes, no more clients are allowed in, but the barber waits for the everyone who is in to get the hair cut
+
+SCOPE: no mutex and no waiting groups (dont communicate with the sharing memory, share memory by comunicating)
